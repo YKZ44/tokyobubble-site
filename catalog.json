@@ -1,0 +1,16 @@
+{
+  "brand": "TOKYO BUBBLE",
+  "price": 6980,
+  "works": [
+    { "no": "TB-01", "title": "晴海プールサイド 1986", "en": "Harumi, 1986", "side": "Side A", "color": "ホワイト", "size": "L", "mercari": "m91997857797" },
+    { "no": "TB-02", "title": "ラジカセ", "en": "Boombox by the pool", "side": "Side A", "color": "ホワイト", "size": "L", "mercari": "m43261494280" },
+    { "no": "TB-03", "title": "ハコスカ", "en": "Skyline, Shonan Road", "side": "Side A", "color": "ホワイト", "size": "L", "mercari": "m29554467303" },
+    { "no": "TB-04", "title": "ルーフトップ・バー", "en": "Rooftop bar, Shibaura", "side": "Side B", "color": "ブラック", "size": "L", "mercari": "m39457370955" },
+    { "no": "TB-05", "title": "トーキョーバブル", "en": "Katakana edition", "side": "Side B", "color": "ブラック", "size": "L", "mercari": "m43936294963" },
+    { "no": "TB-06", "title": "横顔", "en": "Profile", "side": "Cover Girl", "color": "ホワイト", "size": "L", "mercari": "m43016687240" },
+    { "no": "TB-07", "title": "ショートボブ", "en": "Short bob", "side": "Cover Girl", "color": "ホワイト", "size": "L", "mercari": "m92356997130" },
+    { "no": "TB-08", "title": "イヤホン", "en": "Last train", "side": "Cover Girl", "color": "ブラック", "size": "L", "mercari": null },
+    { "no": "TB-09", "title": "ケンメリ", "en": "Skyline, lifeguard tower 17", "side": "Side A", "color": "ホワイト", "size": "L", "mercari": "m48753105852" }
+  ],
+  "measurements": { "L": { "length": "約73cm", "chest": "約55〜56cm", "sleeve": "約22〜23cm" } }
+}
