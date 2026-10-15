@@ -63,8 +63,8 @@
 
   /* HERO: one wide image, then a caption row */
   .hero { position: relative; aspect-ratio: 16 / 7; max-width: 100%; overflow: hidden; background: var(--plate); }
-  .hero .sky { position: absolute; left: 0; right: 0; top: 22%; text-align: center; margin: 0; color: #fff; font-family: 'Saira Stencil One', var(--latin); font-weight: 400; font-size: clamp(30px, 6vw, 88px); letter-spacing: .06em; text-indent: .06em; text-transform: uppercase; line-height: 1; pointer-events: none; }
-  @media (max-width: 700px) { .hero .sky { top: 20%; font-size: clamp(20px, 7vw, 34px); letter-spacing: .06em; text-indent: .06em; } }
+  .sky-logo { position: absolute; left: 50%; top: 24%; transform: translateX(-50%); width: clamp(220px, 44vw, 660px); height: auto; max-width: 86%; pointer-events: none; }
+  @media (max-width: 700px) { .sky-logo { top: 20%; width: 68vw; } }
   .hero img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 62%; }
   /* phones use the same 16:7 band as desktop */
   .hero-cap { padding-block: 22px 0; display: flex; justify-content: space-between; gap: 16px 32px; flex-wrap: wrap; align-items: baseline; }
@@ -172,7 +172,7 @@
 <a id="top"></a>
 <div class="hero" aria-label="Vol. 1 のメインビジュアル。屋上のプール、ヤシの木、縞のパラソル、遠くに東京タワー">
   <img src="img/a1.jpg" alt="" fetchpriority="high" decoding="async">
-  <p class="sky" aria-hidden="true">Tokyo Bubble</p>
+  <img class="sky-logo" src="img/logo-white.png" alt="TOKYO BUBBLE" fetchpriority="high" decoding="async">
 </div>
 <div class="wrap">
   <div class="hero-cap">
